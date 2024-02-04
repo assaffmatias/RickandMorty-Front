@@ -1,0 +1,21 @@
+.searchBar{
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .button{
+    background-color: #2f2f2f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-top: 1em;
+} */

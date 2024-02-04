@@ -1,0 +1,45 @@
+.selectContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+.h2{
+    margin: 0;
+    padding: 50px;
+    display: inline-block;
+    justify-content: center;
+    color: #292929;
+    font-size: 3em;
+}
+
+.select{
+    background-color: #292929;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 1em;
+    text-decoration: none;
+    width: 7em;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #292929;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+    transform: rotate(-90deg);
+  }
+  
+  .svgIcon path {
+    fill: #f0f0f0;
+  }
