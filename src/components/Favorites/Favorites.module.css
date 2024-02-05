@@ -43,3 +43,7 @@
   .svgIcon path {
     fill: #f0f0f0;
   }
+
+  .button:hover > .svgIcon {
+    transform: rotate(270deg);
+}

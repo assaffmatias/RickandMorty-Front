@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Rowdies:wght@300;400;700&display=swap');
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     margin-top: 3em;
 }
 
-.divImg{
+.divImg {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -17,20 +17,20 @@
     height: 380px;
 }
 
-.find{
+.find {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.h1{
+.h1 {
     font-family: "Rowdies", sans-serif;
     font-size: 2.5em;
     color: #292929;
     margin: 0;
 }
 
-.h2{
+.h2 {
     color: #292929;
     font-weight: 200;
 }
@@ -46,11 +46,24 @@
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     transition: 0.5s;
     border: none;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     box-shadow: none;
-  }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .img{
+        height: 450px;
+    }
+}
 
 /* .container{
     width: 100vw;

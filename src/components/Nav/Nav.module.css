@@ -14,7 +14,6 @@
     color: #292929;
     background-color: transparent;
     border: none;
-    border-radius: 5px;
     font-size: 1em;
 }
 
@@ -24,37 +23,13 @@
     cursor: pointer;
   }
 
-/* .nav{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
+@media screen and (min-width: 768px){    
+    .button{
+        padding: 30px 30px;
+    }
+    
+    .img{
+        height: 70px;
+        margin-top: 0.5em;
+    }
 }
-
-.button{
-    padding: 30px 30px;
-    color: #292929;
-    background-color: transparent;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.button:hover {
-    color: #49b1ee;
-    transition: 0.3s;
-    cursor: pointer;
-  }
-  
-.button_nav{
-    display: flex;
-}
-
-.right{
-    display: flex;
-}
-
-.img{
-    height: 70px;
-    margin-top: 0.5em;
-} */
