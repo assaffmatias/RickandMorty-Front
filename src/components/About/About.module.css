@@ -1,13 +1,11 @@
 .container{
     display: flex;
     margin-top: 5em;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .div_img{
-    margin: 1em;
     height: 250px;
 }
 
@@ -21,14 +19,15 @@
     object-fit: cover;
 }
 
-
 .h1{
     font-size: 3.5em;
     color: #292929;
+    margin: 0;
 }
 
 .h2{
     padding: 50px;
+    padding-top: 0;
     font-size: 2em;
     color: #292929;
     font-weight: 300;
