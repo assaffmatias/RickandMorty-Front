@@ -1,4 +1,4 @@
-.div1{
+.content{
     display: flex;
     justify-content: center;
 }
@@ -6,15 +6,14 @@
 .h1{
     font-size: 10em;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: .3em;
     position: relative;
 }
 
 .img{
     position: absolute;
-    /* width: 450px; */
     width: 250px;
-    margin-top: 0;
+    margin-top: 2.5em;
 }
 
 .h2{

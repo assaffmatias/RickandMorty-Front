@@ -9,7 +9,7 @@ const Error = () => {
 
     return (
         <div className={style.container}>
-            <div className={style.div1}>
+            <div className={style.content}>
                 <h1 className={style.h1}>4 0 4</h1>
                 <img className={style.img} src={logo} alt="" />
             </div>
