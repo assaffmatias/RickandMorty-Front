@@ -1,8 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-
 .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.divImg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2em;
+}
+
+.img {
+    height: 250px;
+}
+
+.find{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1{
+    font-size: 2em;
+    color: #292929;
+    margin: 0;
+}
+
+.h2{
+    color: #292929;
+    font-weight: 200;
+}
+
+.button {
+    color: white;
+    background: #49b1ee;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    border: none;
+  }
+  
+  .button:hover {
+    box-shadow: none;
+  }
+
+/* .container{
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -46,4 +96,4 @@
 
 .img{
     height: 500px;
-}
+} */
