@@ -1,12 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
-.container {
+.container{
+  display: flex;
+  margin-top: 3em;
+}
+
+.container2 {
+  background-color: #292929;
+}
+
+.img {
+  height: 300px;
+}
+
+.h1{
+  font-size: 2.3em;
+  margin: 0;
+  margin-top: .5em;
+  color: #f0f0f0;
+}
+
+.h2{
+  color: #f0f0f0;
+  margin: 0;
+  font-weight: 400;
+  padding-left: 2px;
+}
+
+.status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p{
+  font-size: 5em;
+  margin: 0;
+  line-height: 0;
+  padding-bottom: 12px;
+}
+
+.alive{
+  color: #008000;
+}
+
+.dead{
+  color: #ff0000;
+}
+
+.h3{
+  color: #8f8f8f;
+  margin: 0;
+}
+
+.h4{
+  color: #f0f0f0;
+}
+
+.h3, .h4{
+  margin: 12px;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: start;
+  padding-left: 1em;
+}
+
+.divButton{
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #292929;
+  border: none;
+  cursor: pointer;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+  transform: rotate(-90deg);
+}
+
+.svgIcon path {
+  fill: #f0f0f0;
+}
+
+
+/* .container {
   display: flex;
   height: 80vh;
   width: 100vw;
   justify-content: flex-start;
   align-items: center;
-  /* overflow-y: hidden; */
 }
 
 .img {
@@ -100,4 +191,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
