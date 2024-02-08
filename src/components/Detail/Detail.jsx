@@ -49,7 +49,7 @@ const Detail = () => {
                     <h1 className={style.name}>{character?.name}</h1>
                 </div>
                 <div className={style.info}>
-                    <div className={style.properties}>━━━ <h3 className={style.h3}>PROPERTIES</h3> ━━━</div>
+                    <div className={style.properties}>━━━━━ <h3 className={style.h3}>PROPERTIES</h3> ━━━━━</div>
                     <div className={style.data}>
                         <h3 className={style.info_data}>GENDER </h3>
                         <h4 className={style.h4}>{character?.gender}</h4>
