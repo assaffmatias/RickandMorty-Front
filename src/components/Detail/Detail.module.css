@@ -3,7 +3,7 @@
 .container{
   display: flex;
   flex-direction: column;
-  margin: 2em 1em;
+  margin: 1em;
 }
 
 .div_button{
@@ -46,7 +46,6 @@
   position: relative;
   width: 250px;
   border-radius: 50%;
-  /* border: 3px solid green; */
 }
 
 .h2{
@@ -110,6 +109,31 @@
 .dead{
   border: 3px solid #ff0000;
   background-color: #ff0000;
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+  }
+
+  .content{
+    flex-grow: 1;
+    flex-direction: row;
+  }
+
+  .div_button{
+    margin-left: 1em;
+  }
+
+  .div_img{
+    margin-right: 2em;
+  }
+
+  .data{
+    margin-left: 2em;
+  }
 }
 
 /* .container{

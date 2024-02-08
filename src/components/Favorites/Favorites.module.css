@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 1em;
     margin-left: 1em;
+    margin-right: 1em;
 }
 .h2{
     margin: 0;
@@ -46,4 +47,11 @@
 
   .button:hover > .svgIcon {
     transform: rotate(270deg);
+}
+
+@media screen and (min-width: 768px){
+  .selectContainer{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 }
