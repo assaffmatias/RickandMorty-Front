@@ -15,7 +15,7 @@ export const charById = (id) => {
    return async function (dispatch) {
       try {
          // const { data } = await axios.get(`http://localhost:3001/rickandmorty/character/${id}`)
-         const { data } = await axios.get(`https://rickandmorty-back-production-8910.up.railway.app//rickandmorty/character/${id}`)
+         const { data } = await axios.get(`https://rickandmorty-back-production-8910.up.railway.app/rickandmorty/character/${id}`)
 
          dispatch({ type: GET_CHAR, payload: data })
       } catch (error) {
