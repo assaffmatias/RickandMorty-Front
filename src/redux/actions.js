@@ -8,13 +8,14 @@ export const GET_CHAR = 'GET_CHAR'
 export const DEL_CHAR = 'DEL_CHAR'
 
 // axios.defaults.baseURL = "http://localhost:3001/rickandmorty"
-axios.defaults.baseURL = "https://rickandmorty-back-production-73a7.up.railway.app/"
+// axios.defaults.baseURL = "https://rickandmorty-back-production-73a7.up.railway.app/"
 
 
 export const charById = (id) => {
    return async function (dispatch) {
       try {
-         const { data } = await axios.get(`https://rickandmorty-back-production-73a7.up.railway.app/rickandmorty/character/${id}`)
+         // const { data } = await axios.get(`http://localhost:3001/rickandmorty/character/${id}`)
+         const { data } = await axios.get(`https://rickandmorty-back-production-8910.up.railway.app//rickandmorty/character/${id}`)
 
          dispatch({ type: GET_CHAR, payload: data })
       } catch (error) {
@@ -31,7 +32,8 @@ export const deleteChar = (id) => {
 }
 
 export const addFav = (character) => {
-   const endpoint = 'https://rickandmorty-back-production-73a7.up.railway.app/rickandmorty/fav';
+   // const endpoint = 'http://localhost:3001/rickandmorty/fav';
+   const endpoint = 'https://rickandmorty-back-production-8910.up.railway.app/rickandmorty/fav';
    return (dispatch) => {
       axios.post(endpoint, character).then(({ data }) => {
          return dispatch({
@@ -43,7 +45,8 @@ export const addFav = (character) => {
 };
 
 export const removeFav = (id) => {
-   const endpoint = 'https://rickandmorty-back-production-73a7.up.railway.app/rickandmorty/fav/' + id;
+   // const endpoint = 'http://localhost:3001/rickandmorty/fav/' + id;
+   const endpoint = 'https://rickandmorty-back-production-8910.up.railway.app/rickandmorty/fav/' + id;
    return (dispatch) => {
       axios.delete(endpoint).then(({ data }) => {
          return dispatch({
