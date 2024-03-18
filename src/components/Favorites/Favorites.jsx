@@ -54,18 +54,21 @@ const Favorites = (props) => {
                     </select>
                 </div>
             </div>
-            {myFavorites.map((char) => {
-                return (
-                    <div className={style.card}>
-                        <Card
-                            key={char.id}
-                            id={char.id}
-                            image={char.image}
-                            name={char.name}
-                        />
-                    </div>
-                );
-            })}
+            <div className={style.cardContainer}>
+                {myFavorites.map((char) => {
+                    return (
+                        <div>
+                            <Card
+                                key={char.id}
+                                id={char.id}
+                                image={char.image}
+                                name={char.name}
+                            />
+                        </div>
+                    );
+                })}
+            </div>
+
         </div>
     );
 };

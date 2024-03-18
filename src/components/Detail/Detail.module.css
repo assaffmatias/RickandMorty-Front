@@ -11,6 +11,9 @@
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -21,7 +24,6 @@
 
 .svgIcon {
   width: 12px;
-  transition-duration: 0.3s;
   transform: rotate(-90deg);
 }
 
@@ -127,10 +129,6 @@
   .div_button{
     margin-left: 1em;
   }
-
-  .button:hover > .svgIcon {
-    transform: rotate(270deg);
-}
 
   .div_img{
     margin-right: 2em;
