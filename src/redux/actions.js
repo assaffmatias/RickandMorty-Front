@@ -8,7 +8,7 @@ export const GET_CHAR = 'GET_CHAR'
 export const DEL_CHAR = 'DEL_CHAR'
 
 const local = 'http://localhost:3001'
-const deploy = 'https://rickandmorty-back-production-d77e.up.railway.app'
+const deploy = 'https://rickandmorty-back-production-e3cc.up.railway.app/'
 
 
 export const charById = (id) => {
